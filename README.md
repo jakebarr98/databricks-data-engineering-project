@@ -23,3 +23,32 @@ single user
 
 install package to libary in compute
 
+6. Write python scripts to transform data
+notebook 1 - bronze
+mount datasets
+create variables for start and end date
+get data from API
+
+notebook 2 - silver
+make small transformations to make data more readable
+change column headings
+change data types
+reshaping data in dataframe
+validating data - check for null or missing values and assign them value of 0
+save data to silver container
+
+notebook 3
+make more transformations
+
+retrieving country code using coordinates using package installed
+categorising sig into class
+
+8. create workflow
+created workflow for workbooks to run one after another
+bronze notebook runs, on success, silver notebook runs using parameter:
+
+on success, gold notebook runs using parameters
+
+
+
+
