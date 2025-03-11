@@ -1,10 +1,16 @@
 # Databricks Earthquake Data Project
 
+This project is a demonstration of how Databricks can be used to extract and transform data from an API into a useable dataset for reporting. The project utilises soilely the databricks and storage account resources from Azure, and I use Python as the programming language to extract and transform my data. 
+
 ## Architecture
 
+For this project, I use the medallion architecture. The aim of this is to gradually imporve the structure and quality of the data as it moves from bronze --> silver --> gold.
+
 ## Technology Used
+Python
 
 ## Dataset Used
+For this project, I used earthquake data provided by a USGS Gov API
 
 ## Step 1. Created Databricks resource
 pricing tier = to enable connection to storage account, so we can leveridge role based access control (IAM) from storage account in data bricks
