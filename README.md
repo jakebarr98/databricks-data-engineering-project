@@ -75,7 +75,7 @@ This data was then saved to the Gold container
 
 ## Step 7. Create workflow
 
-![Workflow Diagram]()
+![Workflow Diagram](https://github.com/jakebarr98/databricks-data-engineering-project/blob/main/DatabricksPipeline.png)
 
 The next step was to create a workflow for my workbooks (tasks) to run one after another.
 
